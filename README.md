@@ -2,6 +2,10 @@
 
 SafeZip is a streamlined, drag-and-drop Windows utility designed to create and immediately verify ZIP archives. Built with C# and Windows Forms, it acts as a polished graphical frontend for 7-Zip, ensuring that your archived files are safely written and fully intact.
 
+## Download
+
+**[⬇ Download latest release](https://github.com/raktech-eu/SafeZip/releases)**
+
 ---
 
 ## Features
@@ -36,7 +40,7 @@ SafeZip is a streamlined, drag-and-drop Windows utility designed to create and i
 - **Language/Framework:** C# / .NET Windows Forms
 - **Archiving Engine:** `7z.exe` (called via `System.Diagnostics.Process`)
 - **Custom UI:** Uses a borderless, artifact-free custom GDI+ drawing system for buttons and drop zones to provide a modern, flat look.
-- **Self-Contained Icon:** The application icon is embedded directly in the code as a Base64 string, so no external `.ico` files are required to run it.
+- **Self-Contained:** The application icon and this README are embedded as manifest resources at compile time, so no external files are required to run it.
 
 ---
 
